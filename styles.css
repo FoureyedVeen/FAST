@@ -4,8 +4,8 @@
     flex-direction: row;
     justify-content: flex-end;
 }
-.fast-logo {
-    
+.body {
+    background-color: yellowgreen;
     
 }
 .parent-box {

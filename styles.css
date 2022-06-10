@@ -17,7 +17,7 @@
     font-family: Helvetica,arial,sans-serif;
     font-size: 100%;
 }
-.parent-container-centered {
+.speed-container-centered {
     background-color: #00ffff;
     display: flex;
     align-self: center;
@@ -29,4 +29,20 @@
     font-weight: bold;
     font-size: 4.0vh;
     line-height: 6vh;
+}
+.test-context{
+    text-align: center;
+    font-size: 1.7vh;
+    color: #d2d2d2;
+    background-color: brown;
+    /* min-height: 100%; */
+    width: 90%;
+    margin-left: 5%;
+    height: 60.4px;
+}
+.more-info{
+    border-radius: 5px;
+    color: #d2d2d2;
+    box-shadow: none;
+
 }

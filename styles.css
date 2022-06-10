@@ -1,40 +1,65 @@
 .navText {
-    background-color: red;
+    /* background-color: red; */
+   /* padding-left: 20px; */
+   padding-right: 20px;
+   font-size: 14px;
+}
+.nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
+li a {
+    text-decoration: none;
+    color: black;
+}
 .body {
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     
 }
+
 .parent-box {
-    background-color: blue;
+    /* background-color: blue; */
     width: 100vh;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-family: Helvetica,arial,sans-serif;
     font-size: 100%;
+    align-self: center;
 }
 .speed-container-centered {
-    background-color: #00ffff;
+    /* background-color: #00ffff; */
     display: flex;
     align-self: center;
     flex-direction: column;
-    min-height: 71vh;
-     
 } 
 .speedMessage {
     font-weight: bold;
-    font-size: 4.0vh;
+    font-size: 3.0vh;
     line-height: 6vh;
+} 
+.speed-sub-container {
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    align-self: center;
+}
+.speed-left-container {
+    font-size: 35vh;
+    line-height: 33vh;
+    text-align: right;
+    /* background-color: bisque; */
+}
+.speed-right-container {
+    /* background-color: cadetblue;   */
+    font-size: 9vh;
 }
 .test-context{
     text-align: center;
     font-size: 1.7vh;
     color: #d2d2d2;
-    background-color: brown;
+    /* background-color: brown; */
     /* min-height: 100%; */
     width: 90%;
     margin-left: 5%;
@@ -44,5 +69,45 @@
     border-radius: 5px;
     color: #d2d2d2;
     box-shadow: none;
-
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: white;
+    border-width: 1px;
+    padding: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.footer-box {
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.speed-container {
+    /* background-color: blueviolet; */
+}
+.faq-icon {
+    height: 40px;
+    width: 40px;
+    background-color: #c2c2c2;
+    border-radius: 100px;
+    margin: 20px;
+}
+/* loader */
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% {transform: rotate(360deg);}
 }
